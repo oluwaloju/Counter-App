@@ -1,0 +1,60 @@
+body {
+  background-image: url(../images/darklibrary.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+h1 {
+  color: aliceblue;
+  text-align: center;
+  /* animation-name:slide-right;
+  animation-duration:3s;
+  animation-delay: 2s;
+  animation-iteration-count: 10; */
+  transition-property:color,font-size;
+  transition-delay: 1s;
+  transition-duration:1s; 
+}
+h1:hover{
+  font-size:90px;
+  color:rgb(236, 250, 42)
+}
+
+h2 {
+  color: aliceblue;
+  text-align: center;
+}
+
+#counter {
+  color:rgb(19, 54, 250);
+  padding:20px;
+  font-weight: 200;
+  width: 10%;
+  cursor: pointer;
+}
+#save {
+  color:rgb(18, 240, 29);
+  padding:20px;
+  font-weight: 200;
+  width: 10%;
+  cursor: pointer;
+}
+#reset{
+  color:rgb(240, 18, 18);
+  padding:20px;
+  font-weight: 200;
+  width: 10%;
+  cursor: pointer;
+}
+#saveEl{
+  font-style: italic;
+}
+#hwk{
+  font-weight: normal;
+  /* transition-property:rgb(4, 48, 87);
+  transition-delay: 5s;
+  transition-duration:3s; */
+  animation-name:slide-right;
+  animation-duration:3s;
+  animation-delay: 5s;
+  animation-iteration-count: 10;
+}
